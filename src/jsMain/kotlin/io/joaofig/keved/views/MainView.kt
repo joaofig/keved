@@ -1,5 +1,6 @@
 package io.joaofig.keved.views
 
+import io.kvision.core.Overflow
 import io.kvision.html.Div
 import io.kvision.panel.splitPanel
 import io.kvision.panel.vPanel
@@ -17,7 +18,8 @@ class MainView : Div() {
             width = 100.perc
 
             vPanel {
-
+                overflow = Overflow.AUTO
+                height = 100.perc
             }
 
             vPanel {
